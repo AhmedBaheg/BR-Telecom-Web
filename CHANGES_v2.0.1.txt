@@ -1,0 +1,6 @@
+BR Telecom v2.0.1
+
+- Line Structure: moved customers now display their mobile number on the destination line, while retaining the origin line name/number.
+- Removed Balance Suggestions panel from the UI only. Existing distribution balance scoring and historical continuity logic remain unchanged.
+- Development localhost no longer registers the PWA service worker; old BR Telecom localhost service workers/caches are cleared on load. Production Hosting keeps PWA behavior unchanged.
+- No existing business calculations, Firebase account isolation, payment logic, archive behavior, or allocation fallback rules were changed.

@@ -1,0 +1,7 @@
+BR Telecom v1.9.1 - Line Structure Header Contrast Patch
+
+- UI-only adjustment to the line cards in "هيكلة الخطوط".
+- Light Mode headers are now deep navy, much darker than v1.9 while remaining distinct from true Dark Mode.
+- Dark Mode headers use a deeper near-black navy palette.
+- Improved contrast for line ID, name, phone, details link, and capacity status badge.
+- No business logic, Firebase logic, calculations, data structure, or other screens changed.

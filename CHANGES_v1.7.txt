@@ -1,0 +1,20 @@
+BR Telecom Web v1.7 - Operations Suite
+
+Added without changing the existing revenue/payment/distribution logic:
+- Command Center home with clickable unpaid customers card.
+- Unpaid customers filter opens directly from Command Center/Dashboard.
+- Notification Center.
+- Global Search.
+- Quick Actions.
+- Collection Center.
+- Customer detail/profile view.
+- Line detail view with capacity, customers, revenue and net.
+- Advanced dashboard insights.
+- Monthly reports with Print/PDF and CSV export.
+- Activity Log.
+- Recycle Bin with restore copies while preserving deletion behavior.
+- Automatic daily Firebase snapshots + restore latest snapshot.
+- Month-close review before invoking the existing close-month logic.
+- PWA installability (manifest + service worker).
+
+Important: InstaPay and Vodafone Cash calculation code was intentionally left unchanged.

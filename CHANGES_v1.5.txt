@@ -1,0 +1,18 @@
+BR Telecom Web v1.5 — Full Visual Redesign
+
+UI-only redesign based on the approved concept image.
+
+Visual changes:
+- New coordinated Light / Dark modes with a persistent theme toggle.
+- New navy / indigo / violet / cyan visual identity.
+- Redesigned application shell, sidebar, top bar, login screen and home hero.
+- Redesigned shared panels, page headers, cards, forms, tables, badges, empty states and modals.
+- Dark mode styling applies across Dashboard, Customers, Lines, Packages, Extras, Expenses, Reservations, Search, Archive and Backup screens.
+- Light mode uses soft blue/lavender surfaces instead of plain black/white.
+- Mobile header also includes the theme toggle.
+
+Important:
+- Business logic was not intentionally changed.
+- Firebase/Auth/Firestore paths and synchronization logic are unchanged.
+- Backup/restore behavior is unchanged.
+- Calculations, customer/line/package/reservation/expense logic are unchanged.

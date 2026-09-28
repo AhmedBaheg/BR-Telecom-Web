@@ -1,0 +1,14 @@
+BR Telecom Web v2.0 - Continuity Distribution + Historical Search
+
+- Existing business logic preserved; new rules are layered before the old fallback allocator.
+- Automatic distribution now prefers the customer's previous line even when the package changed, if slot/capacity rules allow it.
+- If the customer is no longer in the current customer list, the latest detailed archive snapshot is used to recover the previous line.
+- Same previous groups naturally remain together when their old line still has enough slots/capacity.
+- Existing manual-line selection still has priority.
+- Existing allocation scoring remains the fallback when the previous line cannot be used.
+- Added non-destructive Balance suggestions in Line Structure. Suggestions never move customers automatically.
+- Month close now stores detailed snapshots (customers, lines, packages, extras) inside the archive while keeping the old reset behavior unchanged.
+- Search now supports Current / Previous Months / All.
+- Historical results show previous line name + phone, package, extras and payment state.
+- Added customer line-movement timeline to identify when a customer changed lines between months.
+- Old archives created before v2.0 may contain only statistics and therefore cannot provide customer-level historical search.

@@ -1,0 +1,14 @@
+BR Telecom Web v1.3 - Complete UI Redesign
+
+UI-only redesign. Existing application logic and Firebase behavior were preserved.
+
+Changes:
+- Completely new light SaaS-style application shell.
+- New sidebar navigation and desktop top bar.
+- New mobile navigation treatment.
+- Completely redesigned home screen with hero section and workspace cards.
+- Redesigned login screen with split-screen professional layout.
+- Refined input, button, card, table, spacing, typography and shadow system.
+- Unified slate/violet visual identity across legacy screens.
+- Kept the previously approved Dashboard metric: total extra package value.
+- No existing business rules, calculations, Firebase sync, import/export, distribution logic, deletion behavior, or authentication logic were intentionally changed.

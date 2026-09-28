@@ -1,0 +1,11 @@
+BR Telecom Web v1.4 — Full UI Rebuild
+
+- Rebuilt Dashboard UI from scratch while preserving all existing calculations and handlers.
+- Rebuilt Lines, Line Management, Search, Archive, Backup, Customers, Reservations, Packages, Expenses and Extra Packages screens.
+- Added a consistent Page Intro / Panel / Field / Pill visual system.
+- Rebuilt tables, forms, cards, empty states and status badges.
+- Refreshed confirmation/edit modals.
+- Preserved Firebase auth, Firestore sync, backup/restore, distribution rules, customer/line/package/expense logic and all existing actions.
+- Preserved the approved dashboard metric: Total Extra Packages Value.
+
+No existing business logic was intentionally changed.

@@ -1,0 +1,13 @@
+BR Telecom Web v1.6 — Full UI Reset
+
+UI-only rebuild. Business logic, Firebase, calculations, handlers, data formats, backup/restore, authentication and synchronization behavior were not intentionally changed.
+
+Visual changes:
+- New visual system from scratch with clearer Arabic typography using local system fonts (Tahoma / Segoe UI / Arial).
+- New home hero and workspace navigation.
+- New dashboard composition and KPI hierarchy.
+- New customer and reservation screens with side forms + structured data lists.
+- New line structure, line management, packages, extra packages, expenses, search, archive and backup layouts.
+- New Light/Dark palettes with softer blue, violet, cyan, green and amber accents.
+- New tables, status badges, inputs, action buttons, empty states and responsive layouts.
+- Existing edit/confirm modal behavior retained with the new theme applied visually.

@@ -1,0 +1,11 @@
+BR Telecom Web v1.8.1 — Account Isolation Hotfix
+
+- Fixed cross-account data leakage caused by shared localStorage business keys.
+- Firestore is now the primary source of truth after authentication.
+- New Firebase users start with completely empty company data when no cloud state exists.
+- Browser cache is namespaced by Firebase UID.
+- Logout/account switching clears all rendered business state immediately.
+- Cloud sync stays disabled until the current UID's data load completes.
+- Offline fallback can only read cache belonging to the same UID.
+- Removed obsolete shared business-cache keys after authenticated login.
+- Existing business logic, calculations, multi-company behavior, UI and Firebase document structure remain unchanged.

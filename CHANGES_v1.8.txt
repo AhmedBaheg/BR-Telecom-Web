@@ -1,0 +1,12 @@
+BR Telecom Web v1.8 - Stability & Multi-Company
+
+- Fixed input/select focus loss by moving reusable UI components outside App render scope.
+- Collections Center now separates unpaid customer subscriptions from unpaid extra packages.
+- Removed Expected Profit card from Dashboard only; original revenue/payment logic remains unchanged.
+- Search now allows direct payment status/method editing.
+- Extra packages show the loaded line name + phone consistently.
+- Added isolated company workspaces: WE, Vodafone, Etisalat, Orange.
+- Existing legacy/current data is migrated to WE automatically.
+- Each company has independent customers, lines, packages, extras, expenses, reservations, archives, activity log and recycle bin.
+- Firebase cloud state stores all company workspaces while legacy top-level fields remain pinned to WE for backwards compatibility.
+- InstaPay/Vodafone Cash calculation logic was not changed.

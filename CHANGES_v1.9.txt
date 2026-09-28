@@ -1,0 +1,11 @@
+BR Telecom Web v1.9 - Requested UI/Workflow Patch
+- Dynamic Arabic greeting: صباح الخير before 12 PM, مساء الخير after 12 PM; no hard-coded user name.
+- Home notification/attention panel and near-full-lines card removed; home layout rebalanced.
+- Dashboard comparison/top-package/pressure-line strip removed; layout rebalanced.
+- Line Structure card headers made slightly darker while preserving text contrast.
+- Extra Packages: All / Unpaid / Paid filter added.
+- Search: extra-package payment status and payment method can be edited independently; existing base-customer payment logic retained.
+- Monthly Reports: Top 10 customers by combined current base-package + extra-package value added, with breakdown.
+- Activity Log removed from visible navigation/UI; underlying legacy activity data remains untouched for compatibility.
+- Recycle Bin: permanent delete per item and clear-all with confirmation added.
+- No legacy business calculations, distribution rules, Firebase account isolation, InstaPay/Vodafone Cash totals, archive, backup, or company separation logic intentionally changed.
